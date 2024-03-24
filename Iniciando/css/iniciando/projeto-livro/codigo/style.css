@@ -1,0 +1,50 @@
+div{
+    width: 700px;
+    text-align: center;
+    margin: 16px auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    text-decoration: underline;
+    color: #9f9fd3;
+}
+
+.capa{
+    width: 250px;
+}
+
+h2{
+    font-size: 27px;
+    padding: 10px 0;
+    color: #9f9fd3;
+}
+
+p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid #6060f3;
+    padding: 10px;
+    border-radius:10px;
+    margin: 20px 0;
+}
+
+h3{
+    font-size: 25px;
+    color: #6060f3;
+    border-top: 1px solid #6060f3;
+    margin: 40px 0;
+    padding-top: 30px;
+}
+
+.autor{
+    width: 200px;
+}

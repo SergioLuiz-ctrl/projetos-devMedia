@@ -1,0 +1,62 @@
+/*  Estilizando o  menu  */
+.secao-segundo-menu {
+    margin: 20px 30%;
+}
+
+.secao-segundo-menu nav{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.secao-segundo-menu nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #111;
+    border-bottom: 2px solid #00cad1;
+
+} 
+
+.secao-segundo-menu nav a:hover{
+    color: #76c7ca;
+}
+
+
+.secao-segundo-menu h1{
+    text-align: center;
+    color: #636363;
+}
+
+
+
+/* estilizando a seção da tabela */
+.secao-tabela div{
+    display: flex;
+}
+
+.secao-tabela div img{
+    width: 300px;
+}
+
+.secao-tabela div table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 18px;
+}
+
+.secao-tabela div table thead th{
+    background-color: #00cad1;
+    color: #fff;
+
+    
+}
+
+.secao-tabela div table thead th, tbody td:first-child{
+    padding-left: 10px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #cac8c8;
+}
+  

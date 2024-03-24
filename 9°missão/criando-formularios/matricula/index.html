@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculdade - Matrícula</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <span>Faculdade</span>
+    </header>
+
+    <main>
+        <h1>Matrícula</h1>
+        <p>
+            Preencha os campos abaixo para criar a sua 
+            matrícula e seu cadastro no ambiente virtual da faculdade.
+        </p>
+
+        <form action="https://www.devmedia.com.br/codigos/formularios/aula3/">
+            <label>Nome:</label>
+            <input type="text"  name="nome" placeholder="Digite seu nome completo" required>
+
+            <label>Data de nascimento:</label>
+            <input type="date" name="dataNascimento" max="2005-09-21">
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="exemple@gmail.com" required>
+
+            <label>Telefone: </label>
+            <input type="tel" name="telefone" minlength="14" placeholder="(XX)XXXX-XXXXX" required>
+
+            <label>Melhor dia para vencimento:</label>
+            <input type="number" name="vencimento" min="10" max="20" placeholder="Valores entre 10 e 20" required>
+
+            <label>Login:</label>
+            <input type="text" name="login" required>
+
+            <label>Senha:</label>
+            <input type="password" name="senha" required>
+
+            <button type="submit">Enviar Matrícula</button>
+        </form>
+    </main>
+
+    <footer>
+        <span>Copyright 2023 - Faculdade</span>
+    </footer>
+</body>
+</html>

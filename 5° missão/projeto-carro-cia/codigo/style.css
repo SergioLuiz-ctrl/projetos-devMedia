@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.topo-menu{
+    position: fixed;
+    color: #f8d435;
+    border-bottom: 1px solid #f8d435;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+}
+
+.topo-menu h1{
+    font-size: 21px;
+}
+
+.topo-menu a{
+    color: #f8d435;
+    margin: 0 10px;
+    font-size: 14px;
+    
+}
+
+.topo-menu .menu{
+    padding: 10px 0;
+}
+
+
+
+
+.img-logo{
+    max-width: 1367px;
+    width: 100%;
+}
+
+
+
+
+.sobre, .consultores{
+    text-align: center;
+    margin: 40px auto;
+    width: 600px;
+    line-height: 30px;
+}
+
+.sobre .texto-sobre{
+    text-align: left;
+}
+
+span, .texto-destaque a{
+    color: #f8d435;
+}
+
+h2{
+    margin: 30px auto;
+}
+
+.sobre, .consultores, img{
+    width: 60%;
+}
+
+
+
+.texto-destaque{
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}

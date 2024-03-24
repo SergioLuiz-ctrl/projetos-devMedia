@@ -1,0 +1,73 @@
+div{
+    width: 700px;
+    margin: 25px auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div-logo-menu-titulo-subtitulo-produtos .logo{
+    width: 200px;
+}
+
+.div-logo-menu-titulo-subtitulo-produtos a{
+    text-decoration: none;
+    color: #542f0c;
+    margin: 0 10px;
+
+}
+
+
+
+.div-logo-menu-titulo-subtitulo-produtos h1{
+    font-size: 28px;
+    margin-top: 30px ;
+    padding-top: 30px;
+    border-top: 1px solid #542f0c;
+}
+
+.div-logo-menu-titulo-subtitulo-produtos h2{
+    color: #542f0c;
+    font-weight: normal;
+    margin-bottom: 30px;
+
+}
+
+.div-logo-menu-titulo-subtitulo-produtos .produtos{
+    width: 700px;
+}
+
+
+.paes-bolos{
+    background-color: #de8e37;
+    text-align: center;
+
+}
+
+.paes-bolos img{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.paes-bolos h3{
+    font-size: 24px;
+    padding-top: 40px;
+}
+
+.paes-bolos h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.paes-bolos p{
+    width: 500px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+
+
+
+.contato span{
+    color: #de8e37;
+    font-weight: bold;
+}

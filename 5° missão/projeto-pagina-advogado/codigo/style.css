@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Topo */
+
+.secao-topo{
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.secao-topo p{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* Seção inicial com imagem de fundo */
+
+.sesao-capa{
+    min-height: 500px;
+    background-image: url("/img/capa.jpg");
+    background-size: cover;
+}
+ 
+.secao-texto-capa{
+   
+    text-align: right;
+    padding: 50px 20px;
+    margin-right: 50px;
+}
+
+/* Seção conteúdo */
+
+.secao-sobre, .secao-li, .contato{
+    padding: 50px 20px;
+    margin-left: 60px;
+}
+
+.secao-sobre img{
+    width: 250px;
+    height: 160px;
+}
+
+.secao-sobre span{
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+/* Seção com imagem de fundo e texto */
+
+.secao-divicao-capa{
+    padding: 50px 0;
+    text-align: center;
+    background-image: url("/img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.secao-divisao-h3{
+    font-size: 36px;
+    background-color: #fff;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}

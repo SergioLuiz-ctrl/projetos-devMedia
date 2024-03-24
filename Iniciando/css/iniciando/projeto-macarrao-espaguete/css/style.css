@@ -1,0 +1,39 @@
+menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    
+     
+    
+}
+
+menu div{
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+    color: brown;
+}
+
+ul{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h3{
+    font-size: 27px;
+    color: brown;
+    text-decoration: underline;
+}
+
+p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+}

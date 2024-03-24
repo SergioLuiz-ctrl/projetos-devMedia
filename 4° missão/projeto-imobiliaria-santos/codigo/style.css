@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-logo{
+    background-color: #84ceda;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.menu-logo .logo{
+    margin: 30px auto;
+    width: 200px;
+}
+
+.menu-logo .menu{
+    text-align: center
+}
+
+.menu-logo .menu a{
+    margin: 0 10px;
+    color: #0c343a;
+    text-align: center
+}
+
+
+
+.principal{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.principal .banner-casa{
+    margin: 30px auto;   
+}
+
+.principal .sub-titulo{
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 15px;
+    color: #227d8b;
+}
+
+.principal .pequena-casa{
+    width: 500px;
+    margin: 30px 0;
+}
+
+ p{
+    width: 800px;
+    margin: 10px auto;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+.destaque-azul{
+    color: #24bcd3;
+    font-weight: bold;
+}
+.destaque-amarelo{
+    color: yellow;
+    font-weight: bold;
+}
+
+
+
+.servicos{
+    background-color: #3990bb;
+}
+
+.servicos h3{
+    color: white;
+}
+
+
+
+h3{
+    text-transform: uppercase;
+    margin: 30px auto;
+    padding-top: 30px;
+    text-align: center;
+}
+ 
+.servicos ul  {
+    width: 50px;
+    margin: 30px auto;
+    line-height: 30px;
+    text-align: justify;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.servicos p{
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.corretores {
+    margin: 30px auto;
+    text-align: center;
+    
+}
+
+.corretores h3{
+    color: #24bcd3;
+}
+
+.corretores img{
+    width: 400px;
+    text-align: center;
+    
+}
+
+.corretores a{
+    color: #24bcd3;
+}
+
+
+
+.contato{
+    background-color: #3990bb;
+    text-align: center;
+}
+
+.contato iframe{
+    width: 700px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.contato p{
+
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+   
+}

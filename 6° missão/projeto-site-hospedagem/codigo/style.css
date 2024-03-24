@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*  Preste atenção nesse codigo atribuir position relative 
+    no elemento filho sem atribuir ao pai position absolute e errado, 
+    e fui aprendendo com o erro.            */
+
+
+body{
+    margin: 0 auto;
+}
+
+/*         TOPO           */
+
+.topo{
+    width: 100%;
+    padding: 35px 0;
+    position: relative;
+    background-color: #fff;
+}
+
+.topo div{
+    position: absolute;
+    top: 35%;
+    right: 14%;
+    
+}
+
+.topo img{
+    width: 100px;
+    position: relative;
+    left: 13%;
+}
+
+.topo h1{
+    position: absolute;
+    left: 22%;
+    top: 23%;
+}
+
+.topo p{
+    position: absolute;
+    left: 22%;
+    top: 50%;  
+    color: #2f86d6;
+}
+
+.topo a{
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 16px;
+    color: #233032;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/*         BANNER           */
+.banner{
+    background-color: #2f86d6;
+    height: 100vh;
+}
+
+.banner img{
+    padding: 30px 0;
+    position: relative;
+    left: 50%;
+    top: 15%;
+}
+
+.banner .texto-banner{
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 15%;
+    width: 30%;
+    line-height: 40px;
+}
+
+.banner .texto-banner p,h2{
+    margin: 20px 0;
+    color: #fff;
+}
+
+.banner h2{
+    font-size: 28px;
+}
+
+.banner p{
+    font-size: 18px;
+}
+
+
+
+
+/*         PRIMEIRO ANUNCIO            */
+.primeiro-anuncio, .segundo-anuncio{
+    width: 100%;
+    background-color: #233032;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.primeiro-anuncio div{
+    margin: 0 12%;
+}
+
+.primeiro-anuncio a{
+    position: absolute;
+    text-decoration: none;
+    right: 15%;
+    top: 134%;
+    color: #fff;
+    border: 1px solid #2f86d6;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 18px;
+    background-color: #2f86d6;
+}
+
+.primeiro-anuncio a img{
+    margin: 0 4px;
+    width: 8%;
+}
+
+
+
+
+/*         INFORMAÇOES            */
+.informacoes {
+    margin: 30px auto;
+}
+
+
+.informacoes h2{
+    width: 58%;
+    text-align: center;
+    color: #233032;
+    padding: 5% 0;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-infoemacoes{
+    display: flex;
+}
+
+.container-infoemacoes{
+    width: 70%;
+    margin: 20px auto;
+}
+
+.container-infoemacoes img{
+    position: relative;
+    left: 20%;
+    width: 50%;
+}
+
+.container-infoemacoes div{
+    width: 40%;
+    margin: 0 40px;
+}
+
+.container-infoemacoes h3{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.container-infoemacoes p{
+   text-align: center;
+}
+
+
+/*         COR EM COMUM DA SPAN            */
+.cor-em-comum{
+    color: #2f86d6;
+}
+
+
+
+/*        PLANOS            */
+
+.planos{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.planos h3{
+    text-align: center;
+    color: #233032;
+    padding: 7% 0;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/*        TABELA PLANOS           */
+
+.planos{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.planos table{
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 50px 10px rgba(47, 134, 214, 1);
+    border-radius: 6px;
+    border-collapse: collapse;
+    border: 1px solid #ccc; /* Borda leve */
+
+}
+
+.planos th, .planos td {
+    border: 1px solid #ccc; /* Borda leve para células */
+}
+
+.planos tbody tr:nth-child(1), /* Linha "1 usuário" */
+.planos tbody tr:nth-child(3), /* Linha "200GB SSD espaço" */
+.planos tbody tr:nth-child(5) { /* Linha "Suporte limitado" */
+    background: linear-gradient(#f5f5f5, #e0e0e0);
+}
+.planos table thead tr{
+    padding-bottom: 20px;
+}
+
+
+
+.planos table thead th h4{
+    font-size: 19px;
+    margin-bottom: 30px;
+    
+}
+
+
+.planos table thead th .h4-th-profissional{
+    padding-top: 20px;
+}
+
+
+.planos table thead th p{
+    width: 70%;
+    font-weight: lighter;
+    font-size: 12px;
+    margin: 30px auto;
+}
+
+.planos table tr, td, th{
+    text-align: center;
+    padding: 20px;
+}
+
+.planos table tr, td{
+    padding: 20px;
+}
+
+.planos table img{
+    width: 60%;
+
+}
+
+
+
+/*         SEGUNDO  ANUNCIO            */
+.segundo-anuncio{
+    position: absolute;
+    background-color: #2f86d6;
+}
+
+.segundo-anuncio h2{
+    width: 40%;
+    margin: 20px 10%;
+}
+
+.segundo-anuncio a{
+    position: relative;
+    top: -28%;
+    left: 70%;
+}

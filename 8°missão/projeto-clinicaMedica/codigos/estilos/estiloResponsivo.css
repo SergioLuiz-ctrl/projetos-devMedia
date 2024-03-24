@@ -1,0 +1,96 @@
+
+/* Página home - resolução até 1024px */
+@media (max-width: 1024px) {
+    .topo-divisao{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+
+/* Página home - resolução até 768px */
+@media (max-width: 768px) {
+     .sobre-lista img{
+         display: none;
+    }
+
+    .secao-imagens  {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+      }
+
+    .secao-imagens figure {
+        width: calc(100% / 2 - 40px);
+    
+}
+
+}
+
+
+/* Página home - resolução até 425px */
+@media (max-width: 528px){  /*  Optei por max-width 528 pois o menu */
+    .topo{              /*  começa a quebrar nessa porcentagem e não optei pelo padrão do exercício.*/
+        width: 100%;
+        height: 80%;
+    }
+    .topo-divisao{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center
+
+    }
+
+    .topo .topo-logo img{
+        width: 60%;
+    }
+
+    .topo div, .topo-menu{
+        text-align: center;
+    }
+
+    .topo-menu{
+        border-top: 1px solid #11747b;
+        padding-top: 10px;
+    }
+
+    .topo-menu a{
+        font-size: 15px;
+        margin: 0 30px;
+    }
+
+
+
+     .titulo-fundo h1{
+        font-size: 30px;
+    }
+
+
+    .sobre-titulo p{
+        width: 100%;
+    }
+
+    .secao-servicos .sobre-titulo{
+        margin: 0;
+        padding: 0;
+    }
+
+    .secao-imagens{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .secao-imagens figure{
+        width: 80%;
+    }
+
+}
+
+

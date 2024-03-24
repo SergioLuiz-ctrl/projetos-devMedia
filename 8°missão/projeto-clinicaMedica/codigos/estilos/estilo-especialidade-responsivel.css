@@ -1,0 +1,44 @@
+@media  (min-width: 772px){
+    .secao-segundo-menu{margin: 20px 10%;} 
+    .secao-tabela div{margin: 0 9% 0 9%;}
+    .secao-tabela div table tr,td{ padding: 10px;  }
+}
+
+@media  (max-width: 768px){
+    .secao-segundo-menu{
+        margin: 20px 10%;
+    } 
+
+    .secao-tabela img {
+        display: none;
+    }
+
+    .secao-tabela div table{
+        margin: 20px 10%;
+    }
+
+    .secao-tabela div table tr,td{
+        padding: 10px;
+    }
+}
+
+
+
+
+@media (max-width:  425px){
+    .secao-segundo-menu{
+        margin: 20px 5%;
+    }
+
+
+
+    .secao-tabela div table{
+        margin: 0;
+    }
+
+
+    .secao-tabela div table tr,td{
+        padding: 10px;
+    }
+    
+}

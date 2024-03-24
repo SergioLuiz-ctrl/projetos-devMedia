@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* estilizando o topo */
+.topo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+}
+
+.topo article{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topo p{
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+
+.topo img{
+    width: 32px;
+    height: 32px;
+}
+
+/* estilo em comum */
+.estilos-em-comum{
+    max-width: 1024px;
+}
+
+/* secão da imagem de fundo*/
+.secao-imagem-fundo{
+    width: 100%;
+    height: auto;
+    background-image: url("/img/bahia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.texto-titulo, .area-form {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.cabecalho-fundo{
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.aviaozinho{
+    width: 20px;
+    transform: rotate(-45deg);
+}
+
+.titulo{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.area-form{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 20px 25px;
+    box-sizing: border-box;
+}
+
+.area-form h2{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 16px;
+}
+
+
+form input[name="nome"],  
+input[name="email"], 
+input[name="telefone"],
+select{
+    width: 100%;
+    height: 32px;
+    margin: 10px 0;
+}
+
+
+
+input{
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+select{
+    padding: 0 3px;
+}
+
+.divisao-data-select{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.divisao-data-select div{
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+
+
+.divisao-radio-check input{
+   margin: 20px 20px;
+}
+
+
+.divisao-radio-check{
+    display: flex;
+}
+
+button {
+    width: 160px;
+    height: 32px;
+    border: none;
+    background: #5d15d1;
+    font-size: 16px;
+    color: #fff;
+    margin: 12px 0 0 0;
+    cursor: pointer;
+}
+

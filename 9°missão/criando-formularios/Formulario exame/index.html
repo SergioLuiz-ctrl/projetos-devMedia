@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedCompany - Formulário de exame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span>MedCompany</span>
+    </header>
+    <main>
+        <h1>Formulário de exame</h1>
+
+        <p>
+            Preencha o formulário abaixo com suas informações.
+        </p>
+
+        <form action="https://www.devmedia.com.br/codigos/formularios/aula6/">
+            <label>Nome:</label>
+            <input type="text" name="nome">
+
+            <label>Data de Nascimento:</label>
+            <input type="date" name="dataNascimento">
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="exemple@gmail.com">
+
+            <section class="secao-radio-tatuagem">
+                <h2>Você possui tatuagem?</h2>
+                <article>
+                    <input type="radio" value="Sim" id="tatuagemSim" name="tatuagem" required>
+                    <label for="tatuagemSim">Sim</label>
+                </article>
+                
+                <article>
+                    <input type="radio" value="Não" id="tatuagemNao" name="tatuagem" required>
+                    <label for="tatuagemNao">Não</label>
+                </article>
+            </section>
+
+            <section class="secao-radio-sangue">
+                <h2>Última vez que doou sangue?</h2>
+                <article>
+                    <input type="radio" name="sangue" id="6meses" value="Nos últimos 6 meses">
+                    <label for="6meses">Nos últimos 6 meses</label>
+                </article>
+                <article>   
+                    <input type="radio" name="sangue" id="1ano" value="Há 1 ano ou mais">
+                    <label for="1ano">Há 1 ano ou mais</label>
+                </article> 
+                <article>     
+                    <input type="radio" name="sangue" id="nuncaDuou" value="Nunca doei sangue">
+                    <label for="nuncaDuou">Nunca doei sangue</label>
+                </article>
+            </section>
+
+            <button type="submit" >Enviar Formulário</button>
+        </form>
+    </main>
+
+    <footer>
+        <span>
+            Copyright 2023 - MedCompany
+        </span>
+    </footer>
+</body>
+</html>

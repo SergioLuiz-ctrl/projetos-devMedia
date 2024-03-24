@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/* Banner */
+
+.secao-banner{
+    max-width: 100%;
+    padding: 120px 80px;
+    background-image: url("/midia/banner-topo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* Header logo pet*/
+
+.secao-banner .logo-pet{
+    max-width: 250px;
+    color: #3c184e;
+}
+
+
+.secao-banner .logo-pet p:first-child{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.secao-banner .logo-pet img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.secao-banner .logo-pet p{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* Quadro tranparente com link */
+.quadro-link-telefone{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.quadro-link-telefone h1{
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.quadro-link-telefone p{
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+
+.quadro-link-telefone p a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.quadro-link-telefone p a img{
+    width: 20px;
+}
+
+/* Seção serviços */
+.secao-servicos{
+    width: 100%;
+}
+
+.secao-servicos h2 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.secao-servicos .ul-servicos{
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #3c184e;
+}
+
+.secao-servicos .ul-servicos li{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.secao-servicos .ul-servicos .detalhe{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.secao-servicos .img-figure{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.secao-servicos .img-figure img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/* Estilizando os quadros roxos*/
+.selecao-quadro-roxo{
+    padding: 120px 80px;
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.selecao-quadro-roxo p {
+    max-width: 800px;
+    margin: 0 auto 50px ;
+    font-size: 40px;
+    color: #ffff;
+    text-align: center;
+}
+
+.selecao-quadro-roxo a{
+   margin: 0 20px;
+
+}
+
+.selecao-quadro-roxo a img{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Secão marcas*/
+.secao-marcas{
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.secao-marcas .arti-figure figure{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.secao-marcas .arti-figure figure img{
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+/* Seção aonde estamos */
+.secao-aonde-estamos{
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.secao-aonde-estamos p{
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.secao-aonde-estamos iframe{
+    width: 800px;
+    height: 450px;
+}
+
+/* Rodapé */
+footer{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+}
+
+footer p{
+    color: #ffff;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}

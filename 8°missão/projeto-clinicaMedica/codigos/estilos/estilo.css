@@ -1,0 +1,205 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*            Estilo do Header          */
+
+.topo{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background-color: #05dfdf;
+    border-bottom: 1px solid #32b5f1;
+}
+
+.topo-logo img:first-child {
+    width: 70%;
+  }
+
+.topo-divisao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.topo-menu a{
+    text-decoration: none;   
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.topo-menu a:hover{
+    color: #111;
+}
+
+
+/*            Centraliza os containers           */
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+/*            Estilo do Main Fundo          */
+.imagem-fundo{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url('/imagens/recepcao.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.titulo-fundo{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.titulo-fundo h1{
+    font-size: 38px;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+
+/*         estilo da sessão sobre"          */
+.sessao-sobre{
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.sobre-titulo{                             /*         Alguns estilos compartilham o sobre-titulo         */ 
+    text-align: center;
+}
+
+.sobre-titulo p{
+    margin: 20px auto;
+    width: 65%;
+    color: #636363;
+    font-size: 18px;
+}
+
+.sessao-sobre h3{
+    margin: 20px auto;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.sobre-lista img{
+    height: 250px;
+    padding-left: 20px;
+}
+
+.sobre-lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+}
+
+.sobre-lista ul{
+    margin-left: 40px;  
+    padding: 10px;
+    color: #636363;
+    font-size: 18px;
+}
+
+
+
+
+/*         estilo da sessão multiespecialidade         */
+.sobre-titulo{                           /*         Alguns estilos compartilham o sobre-titulo         */ 
+    margin: 30px auto;
+    padding: 20px;
+}
+  
+  .secao-imagens  {
+    display: flex;
+  }
+
+  .secao-imagens figure{
+    width: calc(100% / 1 - 40px);
+    border-radius: 3px;
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+    margin: 20px;
+
+  }
+
+  .secao-imagens img{
+    width:  100%;
+  }
+
+
+  .secao-imagens figcaption{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+
+  .link-especialidade{
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .link-especialidade a{
+    text-decoration: none;
+    background-color: #00cad1;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+
+  }
+  
+
+
+
+/*         estilo da sessão contato         */  
+.contato .sobre-titulo{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.contato iframe{
+    padding-bottom: 30px;
+}
+
+
+
+
+/*         estilo da sessão rodapé         */
+.rodape{
+    width: 100%;
+    background-color:  #11747b;
+}
+
+.rodape p{
+    color: #fff;
+}
+
+.rodape img{
+    width: 130px;
+}
+
+.rodape .sobre-titulo{
+    margin: 20px 0 0 0;
+
+}
+
+
