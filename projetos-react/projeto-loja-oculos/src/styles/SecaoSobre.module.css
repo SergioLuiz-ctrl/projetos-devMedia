@@ -1,0 +1,55 @@
+.SecaoSobre{
+    background-color: #f8f7ff;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.SecaoSobre h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.SecaoSobre p{
+    line-height: 32px;
+    font-family: sans-serif;
+}
+
+.sectionCards{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sectionCards img, .sectionCards div{
+    width: 35%;
+    max-height: 250px;
+    border: 1px solid #a2adad;
+}
+
+.sectionCards img{
+    object-fit: cover;
+}
+
+.sectionCards div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px 25px;
+}
+
+.sectionCards div h4{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 5px;
+    line-height: 42px;
+}
+
+.sectionCards div p{
+    font-size: 22px;
+    color: #4a4a4a;
+}

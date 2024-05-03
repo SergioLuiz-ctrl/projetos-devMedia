@@ -1,0 +1,56 @@
+.SecaoContato{
+    width: 100%;
+    padding: 100px 20px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #05031b;
+    color: #fff;
+}
+
+.SecaoContato h3{
+    font-size: 26px;
+    margin: 20px;
+}
+
+.SecaoContato p{
+    font-size: 18px;
+}
+
+.secaoCards h4{
+    text-align: center;
+    font-size: 26px;
+}
+
+.secaoLimitaCards{
+   display: flex;
+   justify-content: center; 
+
+}
+
+.secaoCards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    margin: 20px 30px;
+    width: 330px;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+.secaoCards div{
+    display: flex;
+    align-items: center;
+    max-height: 15%;
+    text-align: center;
+}
+
+.secaoCards img{
+    width: 25px;
+    object-fit: contain;
+}
+
+.secaoCards span{
+    font-size: 16px;
+    margin: 0 0 0 10px;
+}

@@ -1,0 +1,36 @@
+.imgCapa{
+    background-image: url("../componentes/assets/capa.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.imgCapa .secaoCapa{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secaoCapa p, .secaoCapa h1{
+    max-width: 500px;
+
+}
+
+.secaoCapa p{
+    font-size: 36px;
+    color: #c4c4c4;
+    margin: 0 20%;
+}
+
+.secaoCapa h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 5px;
+    line-height: 70px;
+    margin: 0 20%;
+}

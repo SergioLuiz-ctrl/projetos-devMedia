@@ -1,0 +1,11 @@
+.section{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    padding: 100px 20px;
+    margin: 0 auto;
+    min-height: 80vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
