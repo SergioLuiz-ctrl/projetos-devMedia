@@ -1,0 +1,40 @@
+.estilo_topo{
+    width: 100%;
+    padding: 20px;
+    min-height: 10vh;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #02023b;
+}
+
+.estilo_topo h1{
+    text-align: center;
+    color: #f3f3f7;
+}
+
+.estilo_topo nav{
+    width: 100%;
+    max-width: 365px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.estilo_topo .link{
+    flex: 1 1 100px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link{
+    background-color: #f3f3f7;
+    color: #02023b;
+    text-align: center;
+    border-radius: 15px;
+}
