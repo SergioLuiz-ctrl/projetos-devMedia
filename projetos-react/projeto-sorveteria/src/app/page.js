@@ -1,95 +1,57 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <>
+      <main>
+        <section className={estilos.secao_banner}>
+          <div className={estilos.texto_banner}>
+            <h1>SORVETE ARTESANAL</h1>
+          </div>
+        </section>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <section className={estilos.secao_nossos_sabores}>
+          <Image className={estilos.img_card} src={image1} alt="sorvetes diversos" />
+          <div className={estilos.container_texto}>
+            <h2>NOSSOS SABORES</h2>
+            <span>Novos e deliciosos!</span>
+            <p>
+              Sorvete bom é aquele feito com os melhores ingredientes! Aqui na
+              gelateria todos os nossos produtos são naturais, à base de frutas
+              e sem nenhum conservante! Também temos opções sem lactose e sem
+              açúcar. Venha conhecer e perceber que tem como o sorvete ser
+              delicioso e saudável ao mesmo tempo!
+            </p>
+          </div>
+        </section>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        <section className={estilos.secao_nossos_eventos}>
+          <div className={estilos.container_texto}>
+            <h2>NOSSOS EVENTOS</h2>
+            <span>Delicias com sorvete!</span>
+            <p>
+              Mais do que uma sorveteria, uma extensão da sua casa! Estamos aqui
+              prontinhos para te atender e oferecer os melhores eventos com os
+              melhores sorvete da sua vida! Venha nos conhecer e passar um tempo
+              aqui com a gente.
+            </p>
+          </div>
+          <Image className={estilos.img_card} src={image2} alt="mesa de festa" />
+        </section>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        <section className={estilos.secao_sobre_nos}>
+          <Image className={estilos.img_card} src={image3} alt="pessoas comendo sorvete" />
+          <div className={estilos.container_texto}>
+            <h2>SOBRE NÓS</h2>
+            <span>Alegria em cada casquinha!</span>
+            <p>
+              Venha tomar o melhor sorvete da região aqui com a gente! Nós
+              estamos há anos no mercado produzindo o que tem de melhor para o
+              nosso cliente e você não pode ficar fora dessa. Venha nos fazer
+              uma visita e aproveite o melhor atendimento e o melhor sorvete da
+              cidade.
+            </p>
+          </div>
+        </section>
+      </main>
+    </>
   );
 }
