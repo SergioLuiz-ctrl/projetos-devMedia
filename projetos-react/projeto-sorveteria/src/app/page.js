@@ -1,3 +1,10 @@
+import Image from "next/image";
+import estilos from "@/app/page.module.css"
+import image1 from "./../../public/banner-sabores.jpg"
+import image2 from "./../../public/eventos-image.jpg"
+import image3 from "./../../public/sobre-image.jpg"
+
+
 export default function Home() {
   return (
     <>

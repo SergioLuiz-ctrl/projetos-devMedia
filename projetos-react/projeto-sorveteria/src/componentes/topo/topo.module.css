@@ -1,0 +1,46 @@
+.header{
+    width: 100%;
+    padding: 0 20px; 
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    background-color: #F9DB79;
+}
+
+.header .secao_topo{
+    width: 100%; 
+    max-width: 1024px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header .secao_topo img{
+    width: 100px;
+    height: 100px;
+}
+
+.header .secao_topo a{
+    text-decoration: none;
+    padding: 20px 0;
+    font-size: 18px;
+    margin: 0 40px;
+    color: #000000;
+}
+
+
+
+
+@media (max-width: 425px){
+    .header{
+        width: 100%;
+    }
+
+    .secao_topo{
+        display: flex;
+        flex-direction: column;
+    } 
+
+}
