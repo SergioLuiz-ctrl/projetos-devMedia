@@ -74,6 +74,9 @@
 }
 
 
+/* Telas até 768px */
+
+
 @media (max-width: 768px){
     .texto_banner h1{
         font-size: 60px;
@@ -106,7 +109,7 @@
 }
 
 
-
+/* Telas até 425px */
 
 @media(max-width: 425px){
     .texto_banner h1{

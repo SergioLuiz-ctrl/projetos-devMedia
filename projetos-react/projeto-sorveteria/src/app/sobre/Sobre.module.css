@@ -1,0 +1,85 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secao_banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../public/banner-sobre.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.divisao_titulo h1{
+    color: #ffffff;
+    font-size: 100px;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+.secao_conteudo_textual h2{
+    font-size: 32px;
+}
+
+.secao_conteudo_textual span{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.secao_conteudo_textual p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.secao_conteudo_textual{
+    width: 100%;
+    max-width: 1024px;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.secao_imagens{
+    display: flex;
+    height: 50%;
+
+}
+
+.divisao_imagem imgimg:nth-child(2){
+    height: 300%;
+}
+
+.divisao_imagem img{
+    width: 50%;
+    height: 417px;
+    object-fit: cover;
+}
+
+
+/* Telas até 768px */
+
+@media (max-width: 768px){
+    .divisao_titulo h1{
+        font-size: 60px;
+    }
+
+
+}
+
+
+
+/* Telas até 425 */
+@media (max-width: 425px){
+    .divisao_titulo h1{
+        font-size: 40px;
+    }
+}
