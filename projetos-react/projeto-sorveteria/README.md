@@ -5,5 +5,5 @@ Nesse projeto, o objetivo é criar um site para uma sorveteria.
 
 ## Exemplo do exercício
  <p align="center">
-    <img src="">
+    <img src="public/video.gif">
  </p>

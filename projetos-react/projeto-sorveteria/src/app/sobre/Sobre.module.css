@@ -16,6 +16,7 @@
     background-position: center;
 }
 
+
 .divisao_titulo h1{
     color: #ffffff;
     font-size: 100px;
@@ -35,7 +36,7 @@
 .secao_conteudo_textual p{
     font-size: 16px;
     text-align: center;
-    line-height: 30px;
+    line-height: 26px;
 }
 
 .secao_conteudo_textual{
@@ -48,19 +49,15 @@
     gap: 30px;
 }
 
-.secao_imagens{
+.divisao_imagem{
     display: flex;
-    height: 50%;
-
 }
 
-.divisao_imagem imgimg:nth-child(2){
-    height: 300%;
-}
+
 
 .divisao_imagem img{
     width: 50%;
-    height: 417px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -71,8 +68,6 @@
     .divisao_titulo h1{
         font-size: 60px;
     }
-
-
 }
 
 
@@ -82,4 +77,16 @@
     .divisao_titulo h1{
         font-size: 40px;
     }
+
+    .divisao_imagem img{
+        width: 100%;
+    }
+
+    .divisao_imagem{
+        display: flex;
+        flex-direction: column;
+    }
+
+ 
 }
+

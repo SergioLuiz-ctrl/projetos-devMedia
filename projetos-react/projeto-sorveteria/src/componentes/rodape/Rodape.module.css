@@ -1,0 +1,59 @@
+.rodape{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+}
+.sesao_conteudo{
+    width: 100%;
+    max-width: 1024px;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.divisao_conteudo {
+    width: 20%;
+    height: 100%;
+}
+
+.divisao_conteudo h3{
+    font-size: 18px;
+}
+
+
+
+.divisao_paragrafo{
+    width: 100%;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sesao_conteudo img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+/* Telas até 768px */
+@media (max-width: 768px){
+    .sesao_conteudo{
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 0;
+        gap: 30px;
+    }
+
+    .divisao_conteudo{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+}
+

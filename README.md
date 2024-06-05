@@ -31,9 +31,14 @@ Aqui armazeno meus projetos desenvolvidos a partir dos estudos na plataforma Dev
 - `projetos-react`
    - Esta pasta contém projetos utilizando a biblioteca React.
 
+## Siga-me 🧑‍💻
 
 
+ <a href="https://www.devmedia.com.br/perfil/sergio-luiz-sinhoca-1"
+ title="View profile">Perfil no DevMedia </a>
 
+ <a href="https://br.linkedin.com/in/sergio-luiz-sinhoca?original_referer=https%3A%2F%2Fwww.google.com%2F"
+ title="View profile">Linkedin</a>
 
 
 
